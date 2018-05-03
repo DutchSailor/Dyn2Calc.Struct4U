@@ -4,7 +4,7 @@ Library for interoperability between Autodesk Revit,Dynamo and Xframe3d
 Export a Revit-model to XFrame3d
 Import a Revit-model from XFrame3d
 
-https://www.struct4u.com/en/xframe3d.html
+https://www.struct4u.com/xframe3d/?lang=en 
 
 ## Version
 not released yet
