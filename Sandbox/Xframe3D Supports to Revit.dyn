@@ -1,0 +1,684 @@
+{
+  "Uuid": "3c9d0464-8643-5ffe-96e5-ab1769818209",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "Xframe3D Supports to Revit",
+  "ElementResolver": {
+    "ResolutionMap": {
+      "Line": {
+        "Key": "Autodesk.DesignScript.Geometry.Line",
+        "Value": "ProtoGeometry.dll"
+      },
+      "Autodesk.Vector": {
+        "Key": "Autodesk.DesignScript.Geometry.Vector",
+        "Value": "ProtoGeometry.dll"
+      },
+      "Autodesk.DesignScript.Geometry.Vector": {
+        "Key": "Autodesk.DesignScript.Geometry.Vector",
+        "Value": "ProtoGeometry.dll"
+      },
+      "DSCore.List": {
+        "Key": "DSCore.List",
+        "Value": "DSCoreNodes.dll"
+      },
+      "StructuralFraming": {
+        "Key": "Revit.Elements.StructuralFraming",
+        "Value": "RevitNodes.dll"
+      }
+    }
+  },
+  "Inputs": [
+    {
+      "Id": "c9984ebc6ec8444f970767ce1a4677de",
+      "Name": "File Path",
+      "Type": "string",
+      "Value": "..\\..\\..\\..\\Bureaublad\\TEMP\\943_5.4_Fundering2.xml",
+      "Description": "Allows you to select a file on the system to get its filename"
+    }
+  ],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "CoreNodeModels.Input.Filename, CoreNodeModels",
+      "HintPath": "C:\\Users\\mikev\\OneDrive\\Bureaublad\\TEMP\\943_5.4_Fundering2.xml",
+      "InputValue": "..\\..\\..\\..\\Bureaublad\\TEMP\\943_5.4_Fundering2.xml",
+      "NodeType": "ExtensionNode",
+      "Id": "c9984ebc6ec8444f970767ce1a4677de",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "3d047e9b75d54a24a7c57e78f573800c",
+          "Name": "",
+          "Description": "Filename",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows you to select a file on the system to get its filename"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Function, DynamoCore",
+      "FunctionSignature": "33a5a45f-e3e1-442a-ab9c-5b595cf9be43",
+      "FunctionType": "Graph",
+      "NodeType": "FunctionNode",
+      "Id": "5ee7c9161e00433ba92c9b5a5af57358",
+      "Inputs": [
+        {
+          "Id": "436e5c5b10cb4db9a8247b2c5ed8af1f",
+          "Name": "xmlFile",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "09c190083db646ae9542f4d4a1a0be7a",
+          "Name": "projectInformation",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "8b004c79c44b4f439df4173044dbb478",
+          "Name": "nodes",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "b1f41f2525984e92a0c7d658da97b0b5",
+          "Name": "nodeNumbers",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "53b490a233df43339c955862b240299d",
+          "Name": "gridX",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "464ebbbf1c3943248f390be31bd07251",
+          "Name": "gridXLable",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "6d2770d8706f4fa3b7c32642795634d2",
+          "Name": "gridY",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "87b2ba80d58e47f681c55a4dea0ed1a4",
+          "Name": "gridYLable",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "82238adc7fab453dbe435066f1a3986a",
+          "Name": "gridZ",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "a805168104f14fc599c227b88cbc3854",
+          "Name": "gridZLable",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "6cde57ee7af846baaded1efb23d7bceb",
+          "Name": "profileName",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "3f03e3dd19cc426698f41b1fdeceb0ed",
+          "Name": "profileMaterialType",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "59bd25776a4a47cb89c15bd676fb8478",
+          "Name": "profileMaterial",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "1ba4b86bde2d4227bc99065dc4300966",
+          "Name": "profileAngle",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "b2186860622c4639b366109dd6e205e3",
+          "Name": "beamFromNodeNumber",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "f142bc201a4849fe8cfc6c50123cdf46",
+          "Name": "beamAngle",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "fdab9743a27543eb8e8bf6549a82eca9",
+          "Name": "beamNumber",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "240a9a0222d2494e97ceaa876f4b1720",
+          "Name": "beamToNodeNumber",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "cb804c2bea9b4d2bbffa62d747510ae2",
+          "Name": "beamAngleProfile",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "ed9baf249d5b408eb79f33827d504009",
+          "Name": "beamProfileName",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "10cb8c0928674a389856522da54cae23",
+          "Name": "beamZ",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "e3fb82323b9045459b07e5fa0c5614aa",
+          "Name": "beam_TopCenterBottom",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "7a83eacb9c044d2aa56efd4d2438b30b",
+          "Name": "gridXline",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "8347420af5674a1aa378d85cb981c44d",
+          "Name": "gridYline",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "5e240e8a988c43359ad1c18eb9e9ffe1",
+          "Name": "support_number",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "c3c84c36d42e41bbba706692271ea714",
+          "Name": "support_nodenumber",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "beffbc74487b40c7a7cca6c381a62eb2",
+          "Name": "support_dx",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "f59a3dd9247346b88cd7ac2eed1d396d",
+          "Name": "support_dy",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "5c94b77a2df74cfa92b61f824f07f302",
+          "Name": "support_dz",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": ""
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Watch, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "8cfec201aa874d80a8d609bc97f4d190",
+      "Inputs": [
+        {
+          "Id": "718455164975404185b106244d0ca1be",
+          "Name": "",
+          "Description": "Node to evaluate.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "8b694198806140448796363749f87829",
+          "Name": "",
+          "Description": "Watch contents.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Visualize the output of node."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Watch, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "b22329c306b64f3ebf38b1202e9d5c62",
+      "Inputs": [
+        {
+          "Id": "e60b559666d04a29a03bbd71a6cdc8e5",
+          "Name": "",
+          "Description": "Node to evaluate.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "6c5809f526e74182a71df3ba19b4c83a",
+          "Name": "",
+          "Description": "Watch contents.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Visualize the output of node."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.FromObject, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "364a094d97ef4b1c947b57551db62a38",
+      "Inputs": [
+        {
+          "Id": "d3b0f4fa799f48cb8e98495ee324bd60",
+          "Name": "obj",
+          "Description": "Object to be serialized",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "2c9d9e19b7db4de8aacef8059e1d03d6",
+          "Name": "str",
+          "Description": "Result of math computation",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Convert an object to a string representation."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.FromObject, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "fe9f17f3a68c4a8baa4975052b8ec24e",
+      "Inputs": [
+        {
+          "Id": "a87363461e1f4cec904a5f206031b7f5",
+          "Name": "obj",
+          "Description": "Object to be serialized",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "ae77da0aa07a422393c7fff0e3ee901c",
+          "Name": "str",
+          "Description": "Result of math computation",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Convert an object to a string representation."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "==@var[]..[],var[]..[]",
+      "Id": "aba99353250c44f780d8b6c4b3fd4660",
+      "Inputs": [
+        {
+          "Id": "68f3139985334d66b1f14e43491e53fd",
+          "Name": "x",
+          "Description": "x value.\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "6eb1ec4d5a794cf99d297717ff3eca2b",
+          "Name": "y",
+          "Description": "y value.\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "e11bba2bc19f4029bef504384eff5a50",
+          "Name": "var[]..[]",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Longest",
+      "Description": "Equal x to y?\n\n== (x: var[]..[], y: var[]..[]): var[]..[]"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.HigherOrder.Map, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "af438b9d771540efb94cdc99c643001b",
+      "Inputs": [
+        {
+          "Id": "beae29a10ed44b19b0c209a7ac02a1ba",
+          "Name": "list",
+          "Description": "The list to map over.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "7cef8387d64e4f069f06ed98196ba4cf",
+          "Name": "f(x)",
+          "Description": "The procedure used to map element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "522c5bd570a84cfbaeb097c30214efe7",
+          "Name": "mapped",
+          "Description": "Mapped list",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Applies a function over all elements of a list, generating a new list from the results."
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "3d047e9b75d54a24a7c57e78f573800c",
+      "End": "436e5c5b10cb4db9a8247b2c5ed8af1f",
+      "Id": "313cf178f96a460c84471e23da7044b5"
+    },
+    {
+      "Start": "b1f41f2525984e92a0c7d658da97b0b5",
+      "End": "e60b559666d04a29a03bbd71a6cdc8e5",
+      "Id": "c972fe91c3a144da8729a1bde9cb3154"
+    },
+    {
+      "Start": "b1f41f2525984e92a0c7d658da97b0b5",
+      "End": "d3b0f4fa799f48cb8e98495ee324bd60",
+      "Id": "9e0cf77985e04e97a059808d324c4ac0"
+    },
+    {
+      "Start": "c3c84c36d42e41bbba706692271ea714",
+      "End": "718455164975404185b106244d0ca1be",
+      "Id": "7e94e3d43c0e47f9864f72991b69e733"
+    },
+    {
+      "Start": "8b694198806140448796363749f87829",
+      "End": "a87363461e1f4cec904a5f206031b7f5",
+      "Id": "9e261a9195084ac28bb149a3a04ee5a6"
+    },
+    {
+      "Start": "2c9d9e19b7db4de8aacef8059e1d03d6",
+      "End": "68f3139985334d66b1f14e43491e53fd",
+      "Id": "526447472ced481bae71cf44abbb7919"
+    },
+    {
+      "Start": "ae77da0aa07a422393c7fff0e3ee901c",
+      "End": "beae29a10ed44b19b0c209a7ac02a1ba",
+      "Id": "fe04f5a66e664a33bd43946cd6c22ebc"
+    },
+    {
+      "Start": "e11bba2bc19f4029bef504384eff5a50",
+      "End": "7cef8387d64e4f069f06ed98196ba4cf",
+      "Id": "1f853ffee8e1456c8dd14aad323d751d"
+    }
+  ],
+  "Dependencies": [
+    "33a5a45f-e3e1-442a-ab9c-5b595cf9be43"
+  ],
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.0.2.6826",
+      "RunType": "Automatic",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -14579.794921875,
+      "EyeY": 21154.923828125,
+      "EyeZ": 20618.734375,
+      "LookX": 14574.794921875,
+      "LookY": -21143.923828125,
+      "LookZ": -20626.734375,
+      "UpX": 0.26695877313613892,
+      "UpY": 0.88656264543533325,
+      "UpZ": -0.37780895829200745
+    },
+    "NodeViews": [
+      {
+        "ShowGeometry": true,
+        "Name": "File Path",
+        "Id": "c9984ebc6ec8444f970767ce1a4677de",
+        "IsSetAsInput": true,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -286.28746244715114,
+        "Y": -18.583324498859078
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Xframe3DImportXML",
+        "Id": "5ee7c9161e00433ba92c9b5a5af57358",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 571.62123335314425,
+        "Y": 18.242625807438273
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Watch",
+        "Id": "8cfec201aa874d80a8d609bc97f4d190",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1083.3308382956532,
+        "Y": 556.43129650083358
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Watch",
+        "Id": "b22329c306b64f3ebf38b1202e9d5c62",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1227.3247799495789,
+        "Y": -141.96257680728613
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "String from Object",
+        "Id": "364a094d97ef4b1c947b57551db62a38",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1332.1713454540284,
+        "Y": 410.19795415096451
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "String from Object",
+        "Id": "fe9f17f3a68c4a8baa4975052b8ec24e",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1320.9788397821176,
+        "Y": 549.218598136755
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "==",
+        "Id": "aba99353250c44f780d8b6c4b3fd4660",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1564.9300933237819,
+        "Y": 411.59163590870008
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "List.Map",
+        "Id": "af438b9d771540efb94cdc99c643001b",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1809.9223778418084,
+        "Y": 551.3481820865718
+      }
+    ],
+    "Annotations": [],
+    "X": -182.33230762842538,
+    "Y": 142.74354237821495,
+    "Zoom": 0.6637544787243409
+  }
+}
