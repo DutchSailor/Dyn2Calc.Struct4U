@@ -54,65 +54,6 @@
   "Outputs": [],
   "Nodes": [
     {
-      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
-      "NodeType": "FunctionNode",
-      "FunctionSignature": "DSCore.IO.FileSystem.WriteText@string,string",
-      "Id": "9d8ab7bf9986482b9687a4441d8b9d52",
-      "Inputs": [
-        {
-          "Id": "9e2eb4cadb3f4c9781fd708c7ab99b44",
-          "Name": "filePath",
-          "Description": "Path to write to\n\nstring",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        },
-        {
-          "Id": "2ad7a0a49f714e97b1b1aa726db653ee",
-          "Name": "text",
-          "Description": "Text content\n\nstring",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "1dbf07be132f47e4b47c8dc0928c5dc9",
-          "Name": "void",
-          "Description": "void",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Auto",
-      "Description": "Write the text content to a file specified by the path\n\nFileSystem.WriteText (filePath: string, text: string): void"
-    },
-    {
-      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
-      "NodeType": "CodeBlockNode",
-      "Code": "\"C:/TEMP/test4.xml\";",
-      "Id": "ca80cd22eb4d40abb0c72c1d3d8d366e",
-      "Inputs": [],
-      "Outputs": [
-        {
-          "Id": "bac3e6bb491649ed9f3dd18e5e5d60d9",
-          "Name": "",
-          "Description": "Value of expression at line 1",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Disabled",
-      "Description": "Allows for DesignScript code to be authored directly"
-    },
-    {
       "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
       "NodeType": "CodeBlockNode",
       "Code": "\"<Nodes/>\";\n\"<Grids/>\";\n\"<Profiles/>\";\n\"<Beams/>\";\n\"<Layers/>\";\n\"</Frame>\";",
@@ -6569,14 +6510,30 @@
       ],
       "Replication": "Disabled",
       "Description": "A function parameter, use with custom nodes.\r\n\r\nYou can specify the type and default value for parameter. E.g.,\r\n\r\ninput : var[]..[]\r\nvalue : bool = false"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Output, DynamoCore",
+      "NodeType": "OutputNode",
+      "ElementResolver": null,
+      "Symbol": "xmlstring",
+      "Id": "3c80bfe8d4534dc7a14d5edeaeaf712a",
+      "Inputs": [
+        {
+          "Id": "f449feb6a449433c8ee840de04670ade",
+          "Name": "",
+          "Description": "",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [],
+      "Replication": "Disabled",
+      "Description": "A function output, use with custom nodes"
     }
   ],
   "Connectors": [
-    {
-      "Start": "bac3e6bb491649ed9f3dd18e5e5d60d9",
-      "End": "9e2eb4cadb3f4c9781fd708c7ab99b44",
-      "Id": "2a277bf10e88483b94651def9803322b"
-    },
     {
       "Start": "f1588ac5c0e943b7a9629a2cd514563b",
       "End": "562e0916c7ba4bd8a3be2530b0b4350a",
@@ -6619,8 +6576,8 @@
     },
     {
       "Start": "a9972568931642d296fe0ec451644000",
-      "End": "2ad7a0a49f714e97b1b1aa726db653ee",
-      "Id": "8a0898046292444aacb3a2459855db2b"
+      "End": "f449feb6a449433c8ee840de04670ade",
+      "Id": "756f7f433a3a4594890d1a4858a6eccc"
     },
     {
       "Start": "8b0561dada3e409e8ece9a63d0922fdb",
@@ -7839,26 +7796,6 @@
       "UpZ": 0.0
     },
     "NodeViews": [
-      {
-        "ShowGeometry": true,
-        "Name": "FileSystem.WriteText",
-        "Id": "9d8ab7bf9986482b9687a4441d8b9d52",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 11502.041600378043,
-        "Y": 3835.5212294251369
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "Code Block",
-        "Id": "ca80cd22eb4d40abb0c72c1d3d8d366e",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 11122.467139502764,
-        "Y": 3824.9737090684866
-      },
       {
         "ShowGeometry": true,
         "Name": "Code Block",
@@ -9458,26 +9395,19 @@
         "Excluded": false,
         "X": 1609.6107240629942,
         "Y": 5402.2073362918072
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Output",
+        "Id": "3c80bfe8d4534dc7a14d5edeaeaf712a",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 10863.963976923929,
+        "Y": 3506.3324371977078
       }
     ],
     "Annotations": [
-      {
-        "Id": "959f683e1f1246f099ac210dad69c0df",
-        "Title": "WRITE TO FILE",
-        "Nodes": [
-          "9d8ab7bf9986482b9687a4441d8b9d52",
-          "ca80cd22eb4d40abb0c72c1d3d8d366e"
-        ],
-        "Left": 11112.467139502764,
-        "Top": 3778.9737090684866,
-        "Width": 590.57446087527933,
-        "Height": 175.54752035665024,
-        "FontSize": 30.0,
-        "InitialTop": 3824.9737090684866,
-        "InitialHeight": 159.54752035665024,
-        "TextblockHeight": 36.0,
-        "Background": "#FFA4E1FF"
-      },
       {
         "Id": "81eea967d179426b935243ae9ecfb448",
         "Title": "COMBINE ALL XML-STRINGS",
@@ -9797,8 +9727,8 @@
         "Background": "#FFC1D676"
       }
     ],
-    "X": 215.50341462899155,
-    "Y": 288.8703617037159,
-    "Zoom": 0.35848948022864885
+    "X": -3549.4096972205316,
+    "Y": -1146.1523905046906,
+    "Zoom": 0.41341502936704511
   }
 }
