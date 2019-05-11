@@ -13,7 +13,7 @@ not released yet
 Installation will be possible via the dynamo built-in package manager.
 
 ## Dynamo, Revit-version
-The current nodes are tested with Revit 2019 and Dynamo 1.3.3
+The current nodes are tested with Revit 2019 and Dynamo 2.0
 It had not been tested with older or newer versions of Revit and Dynamo.
 
 ## Material on this repository
