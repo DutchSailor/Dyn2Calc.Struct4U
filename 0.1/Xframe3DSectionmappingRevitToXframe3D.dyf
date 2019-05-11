@@ -233,7 +233,7 @@
       "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Symbol, DynamoCore",
       "NodeType": "InputNode",
       "Parameter": {
-        "Name": "Revit Steel Familtype: FamilyType",
+        "Name": "Revit Familytype",
         "TypeName": "var",
         "TypeRank": -1,
         "DefaultValue": null,
@@ -425,8 +425,8 @@
         "Background": "#FFC1D676"
       }
     ],
-    "X": -543.74150984309631,
-    "Y": -15.77738876593952,
-    "Zoom": 0.6913477938671877
+    "X": -2451.8202506163288,
+    "Y": -272.98004399387457,
+    "Zoom": 0.94876882703760579
   }
 }
