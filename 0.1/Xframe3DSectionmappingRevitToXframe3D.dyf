@@ -206,7 +206,7 @@
         }
       ],
       "Replication": "Auto",
-      "Description": "Settings and mapping tables"
+      "Description": ""
     },
     {
       "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
@@ -331,8 +331,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 2804.0419872647626,
-        "Y": 685.07069558782
+        "X": 2808.8510674722711,
+        "Y": 588.88909143764931
       },
       {
         "ShowGeometry": true,
@@ -341,8 +341,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 3134.7563593576224,
-        "Y": 577.54026024361
+        "X": 3139.5654395651309,
+        "Y": 481.35865609343938
       },
       {
         "ShowGeometry": true,
@@ -361,8 +361,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 2009.1444074987028,
-        "Y": 601.32596475933
+        "X": 2013.9534877062113,
+        "Y": 505.14436060915938
       },
       {
         "ShowGeometry": true,
@@ -381,8 +381,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 1144.5082351804379,
-        "Y": 668.929946622267
+        "X": 1118.859807407059,
+        "Y": 398.01842826595328
       },
       {
         "ShowGeometry": true,
@@ -401,8 +401,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 574.0,
-        "Y": 583.489570601493
+        "X": 1054.7871188880383,
+        "Y": 882.21863380392745
       }
     ],
     "Annotations": [
@@ -414,19 +414,19 @@
           "78f26d3050d14b9ea3e155117f2ff30b",
           "3bf237fb5cd34de2b29be2700ee02d5b"
         ],
-        "Left": 1999.1444074987028,
-        "Top": 524.54026024361,
+        "Left": 2003.9534877062113,
+        "Top": 428.35865609343938,
         "Width": 1356.6119518589196,
-        "Height": 253.53043534421,
+        "Height": 253.53043534420993,
         "FontSize": 36.0,
-        "InitialTop": 577.54026024361,
-        "InitialHeight": 230.53043534421,
+        "InitialTop": 481.35865609343938,
+        "InitialHeight": 252.53043534421,
         "TextblockHeight": 43.0,
         "Background": "#FFC1D676"
       }
     ],
-    "X": -2451.8202506163288,
-    "Y": -272.98004399387457,
-    "Zoom": 0.94876882703760579
+    "X": -317.449432939697,
+    "Y": -18.630821211953958,
+    "Zoom": 0.57965394315479168
   }
 }
