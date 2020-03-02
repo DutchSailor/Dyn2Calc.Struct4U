@@ -61,13 +61,14 @@
     }
   ],
   "Dependencies": [],
+  "NodeLibraryDependencies": [],
   "Bindings": [],
   "View": {
     "Dynamo": {
       "ScaleFactor": 1.0,
       "HasRunWithoutCrash": false,
       "IsVisibleInDynamoLibrary": true,
-      "Version": "2.1.0.7500",
+      "Version": "2.3.0.5885",
       "RunType": "Manual",
       "RunPeriod": "1000"
     },
@@ -85,21 +86,21 @@
     },
     "NodeViews": [
       {
-        "ShowGeometry": true,
-        "Name": "Output",
         "Id": "75dd044730a1493689f49cdbed997306",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
+        "Name": "Output",
+        "ShowGeometry": true,
         "Excluded": false,
         "X": 783.0,
         "Y": 345.0
       },
       {
-        "ShowGeometry": true,
-        "Name": "Python Script",
         "Id": "a9418294860c4885a6179101cedf2cfb",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
+        "Name": "Python Script",
+        "ShowGeometry": true,
         "Excluded": false,
         "X": 445.0,
         "Y": 343.0

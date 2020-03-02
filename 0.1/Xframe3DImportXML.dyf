@@ -1,7 +1,7 @@
 {
   "Uuid": "33a5a45f-e3e1-442a-ab9c-5b595cf9be43",
   "IsCustomNode": true,
-  "Category": "Xframe3D",
+  "Category": "Dyn2Calc.Xframe3d",
   "Description": "Import Xframe3D XML and convert to points, lines and metadata",
   "Name": "Xframe3DImportXML",
   "ElementResolver": {
@@ -3474,27 +3474,27 @@
     }
   ],
   "Dependencies": [],
-  "Bindings": [],
+  "NodeLibraryDependencies": [],
   "View": {
     "Dynamo": {
       "ScaleFactor": 1.0,
       "HasRunWithoutCrash": false,
       "IsVisibleInDynamoLibrary": true,
-      "Version": "2.0.2.6826",
+      "Version": "2.3.0.5885",
       "RunType": "Manual",
       "RunPeriod": "1000"
     },
     "Camera": {
       "Name": "Background Preview",
-      "EyeX": -14579.794921875,
-      "EyeY": 21154.923828125,
-      "EyeZ": 20618.734375,
-      "LookX": 14574.794921875,
-      "LookY": -21143.923828125,
-      "LookZ": -20626.734375,
-      "UpX": 0.26695877313613892,
-      "UpY": 0.88656264543533325,
-      "UpZ": -0.37780895829200745
+      "EyeX": -11913.0048828125,
+      "EyeY": 12911.337890625,
+      "EyeZ": 57547.35546875,
+      "LookX": 11908.0048828125,
+      "LookY": -12900.337890625,
+      "LookZ": -57555.35546875,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
     },
     "NodeViews": [
       {
@@ -4273,7 +4273,7 @@
         "Height": 264.404844550533,
         "FontSize": 30.0,
         "InitialTop": 173.777777777778,
-        "InitialHeight": 247.627066772755,
+        "InitialHeight": 225.870612542017,
         "TextblockHeight": 36.0,
         "Background": "#FFC1D676"
       },
@@ -4292,7 +4292,7 @@
         "Height": 316.40484455053,
         "FontSize": 30.0,
         "InitialTop": 1093.50697184302,
-        "InitialHeight": 299.18262232831,
+        "InitialHeight": 225.87061254201012,
         "TextblockHeight": 36.0,
         "Background": "#FFE8F7AD"
       },
@@ -4313,7 +4313,7 @@
         "Height": 339.86539360100107,
         "FontSize": 30.0,
         "InitialTop": 591.712002890185,
-        "InitialHeight": 323.087615823223,
+        "InitialHeight": 301.33116159248607,
         "TextblockHeight": 36.0,
         "Background": "#FFFFB8D8"
       },
@@ -4332,7 +4332,7 @@
         "Height": 271.43658401560992,
         "FontSize": 30.0,
         "InitialTop": 1515.22040853836,
-        "InitialHeight": 254.43658401561,
+        "InitialHeight": 200.81730878312987,
         "TextblockHeight": 36.0,
         "Background": "#FFFF7BAC"
       },
@@ -4357,7 +4357,7 @@
         "Height": 349.43658401560992,
         "FontSize": 30.0,
         "InitialTop": 1870.3957368145,
-        "InitialHeight": 331.769917348943,
+        "InitialHeight": 328.10142160425016,
         "TextblockHeight": 36.0,
         "Background": "#FF48B9FF"
       },
@@ -4379,7 +4379,7 @@
         "Height": 363.18649865257,
         "FontSize": 30.0,
         "InitialTop": 1194.08836576321,
-        "InitialHeight": 472.749227552442,
+        "InitialHeight": 324.46768823496996,
         "TextblockHeight": 36.0,
         "Background": "#FFC1D676"
       },
@@ -4401,7 +4401,7 @@
         "Height": 345.85087897223,
         "FontSize": 30.0,
         "InitialTop": 624.283668215335,
-        "InitialHeight": 436.022991053291,
+        "InitialHeight": 301.02472190883009,
         "TextblockHeight": 36.0,
         "Background": "#FFC1D676"
       },
@@ -4420,13 +4420,13 @@
         "Height": 406.57886103316014,
         "FontSize": 30.0,
         "InitialTop": 2400.087317758384,
-        "InitialHeight": 390.57886103316014,
+        "InitialHeight": 333.57886103316014,
         "TextblockHeight": 36.0,
         "Background": "#FFFFC999"
       }
     ],
-    "X": 235.7014946072033,
-    "Y": 120.45124976615216,
-    "Zoom": 0.21166618798464068
+    "X": -2526.3407377991825,
+    "Y": -123.03187925148904,
+    "Zoom": 0.58808925555344627
   }
 }
