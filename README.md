@@ -7,13 +7,13 @@ Import a Revit-model from XFrame3d
 https://www.struct4u.com/xframe3d/?lang=en 
 
 ## Version
-not released yet
+0.0.1 alpha released on 21-03-2020. Work in progress
 
 ## Installation
 Installation will be possible via the dynamo built-in package manager.
 
 ## Dynamo, Revit-version
-The current nodes are tested with Revit 2019 and Dynamo 2.0
+The current nodes are tested with Revit 2020.2 and Dynamo 2.x
 It had not been tested with older or newer versions of Revit and Dynamo.
 
 ## Material on this repository
