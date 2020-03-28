@@ -9,13 +9,13 @@ https://www.struct4u.com/xframe3d/?lang=en
 ![Image](Dyn2CalcXframe3DImage.png)
 
 ## Version
-0.1.0 released on 28-03-2020. Work in progress
+0.1.1 released on 28-03-2020. Work in progress
 
 ## Installation
 Installation will be possible via the dynamo built-in package manager.
 
 ## Dynamo, Revit-version
-The current nodes are tested with Revit 2020.2 and Dynamo 2.x
+The current nodes are tested with Revit 2020.2 and Dynamo 2.3
 It had not been tested with older or newer versions of Revit and Dynamo.
 
 ## Material on this repository
