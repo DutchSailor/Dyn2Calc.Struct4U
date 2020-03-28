@@ -18,5 +18,48 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 
 ## Material on this repository
 -Directory supportfiles contains files with families to use with the nodes and example files.
-
 -Directory nodes contains the versions of the package and the actual nodes
+
+
+## Status
+
+Revit to Xframe3D
+
+Implemented
+-Project information
+-Nodes, beams, columns, braces
+-Grids X,Y,Z
+-Recognition of steelsections with 4 different type of nameconventions.
+-Recognition of rectangle concrete sections and wood sections
+
+To be implemented
+-Plates
+-Rebar
+-Buildup Sections
+-Non rectangular concrete and wood sections
+-Materials
+-Supports
+-Intelligent analytical node merging
+-Steelconections
+
+Xframe3D to Revit
+
+Implemented
+-Grids X Y Z
+-Nodes, beams, columns, braces
+-All XML-information as lists in Dynamonodes
+
+To be implemented:
+-Plates
+-Rebar
+-Recognition of section and load family into project
+-Buildup Sections
+-Non rectangular concrete and wood sections
+-Materials
+-Intelligent analytical node merging
+-Steelconections
+
+
+
+
+
