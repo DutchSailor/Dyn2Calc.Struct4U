@@ -62,6 +62,16 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Steelconections
 
 
+## Recognition of sections
+
+### Steel
+They are based on a mapping table with 4 kind of sectionnames. The node looks to the typename of the Structural Column of Structural Framing and will try to match this with a Xframe Steelsection. If there is none the profile will be a HEM1000.
+
+### Wood
+The dynamonode will look to a typename starting with a Abbrevation. By Example 'HB'. Within the family the 'Section Shape'-parameter should be used. The standard parameters 'Width' and 'Height' will be used to extract the width and the height of the section.
+
+### Concrete
+Same story as wood
 
 
 
