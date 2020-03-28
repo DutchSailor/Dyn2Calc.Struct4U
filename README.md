@@ -75,12 +75,4 @@ The dynamonode will look to a typename starting with a Abbrevation. By Example '
 ### Concrete
 Same story as wood
 
-## Workflows
 
-### Revit to X-frame3D
-
-![](RevittoX-frame3D.gif)
-
-### X-fram3D to Revit Place piles based on supports
-
-![](X-frame3DtoRevit.gif)
