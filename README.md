@@ -1,10 +1,10 @@
 # Dyn2Calc.Xframe3d
 Library for interoperability between Autodesk Revit,Dynamo and Xframe3d
 
+Xframe3d is a FEM-program for more information check: https://www.struct4u.com/xframe3d/?lang=en 
+
 Export a Revit-model to XFrame3d
 Import a Revit-model from XFrame3d
-
-https://www.struct4u.com/xframe3d/?lang=en 
 
 ![Image](Dyn2CalcXframe3DImage.png)
 
@@ -75,10 +75,10 @@ The dynamonode will look to a typename starting with a Abbrevation. By Example '
 ### Concrete
 Same story as wood
 
-### Revit to X-frame3D
+### Revit to Xframe3D
 
 ![](RevittoXframe3D.gif)
 
-### X-fram3D to Revit Place piles based on supports
+### Xframe3D to Revit Place piles based on supports
 
 ![](Xframe3DtoRevit.gif)
