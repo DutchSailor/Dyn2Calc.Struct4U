@@ -23,16 +23,16 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 
 ## Status
 
-Revit to Xframe3D
+### Revit to Xframe3D
 
-Implemented
--Project information
+#### Implemented
+*Project information
 -Nodes, beams, columns, braces
 -Grids X,Y,Z
 -Recognition of steelsections with 4 different type of nameconventions.
 -Recognition of rectangle concrete sections and wood sections
 
-To be implemented
+#### To be implemented
 -Plates
 -Rebar
 -Buildup Sections
@@ -42,14 +42,14 @@ To be implemented
 -Intelligent analytical node merging
 -Steelconections
 
-Xframe3D to Revit
+### Xframe3D to Revit
 
-Implemented
+#### Implemented
 -Grids X Y Z
 -Nodes, beams, columns, braces
 -All XML-information as lists in Dynamonodes
 
-To be implemented:
+#### To be implemented:
 -Plates
 -Rebar
 -Recognition of section and load family into project
