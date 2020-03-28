@@ -79,8 +79,8 @@ Same story as wood
 
 ### Revit to X-frame3D
 
-![Image](RevittoX-frame3D.gif)
+![](RevittoX-frame3D.gif)
 
 ### X-fram3D to Revit Place piles based on supports
 
-![Image](X-frame3DtoRevit.gif)
+![](X-frame3DtoRevit.gif)
