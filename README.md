@@ -6,6 +6,8 @@ Import a Revit-model from XFrame3d
 
 https://www.struct4u.com/xframe3d/?lang=en 
 
+![Image](Dyn2CalcXframe3DImage.png)
+
 ## Version
 0.0.1 alpha released on 21-03-2020. Work in progress
 
