@@ -75,4 +75,11 @@ The dynamonode will look to a typename starting with a Abbrevation. By Example '
 ### Concrete
 Same story as wood
 
+[[https://github.com/DutchSailor/Dyn2Calc.Xframe3d/raw/master/RevittoXframe3D.gif]]
+### Revit to X-frame3D
 
+![](RevittoXframe3D.gif)
+
+### X-fram3D to Revit Place piles based on supports
+
+![](Xframe3DtoRevit.gif)
