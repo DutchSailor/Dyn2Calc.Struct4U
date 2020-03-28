@@ -26,7 +26,7 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 ### Revit to Xframe3D
 
 #### Implemented
-*Project information
+* Project information
 -Nodes, beams, columns, braces
 -Grids X,Y,Z
 -Recognition of steelsections with 4 different type of nameconventions.
