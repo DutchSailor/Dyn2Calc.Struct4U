@@ -9,7 +9,7 @@ https://www.struct4u.com/xframe3d/?lang=en
 ![Image](Dyn2CalcXframe3DImage.png)
 
 ## Version
-0.1.1 released on 28-03-2020. Work in progress
+0.1.2 released on 28-03-2020. Work in progress
 
 ## Installation
 Installation will be possible via the dynamo built-in package manager.
