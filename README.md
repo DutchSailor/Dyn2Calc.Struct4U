@@ -9,7 +9,7 @@ https://www.struct4u.com/xframe3d/?lang=en
 ![Image](Dyn2CalcXframe3DImage.png)
 
 ## Version
-0.0.1 alpha released on 21-03-2020. Work in progress
+0.1.0 alpha released on 28-03-2020. Work in progress
 
 ## Installation
 Installation will be possible via the dynamo built-in package manager.
@@ -19,8 +19,8 @@ The current nodes are tested with Revit 2020.2 and Dynamo 2.x
 It had not been tested with older or newer versions of Revit and Dynamo.
 
 ## Material on this repository
--Directory supportfiles contains files with families to use with the nodes and example files.
--Directory nodes contains the versions of the package and the actual nodes
+* Directory supportfiles contains files with families to use with the nodes and example files.
+* Directory nodes contains the versions of the package and the actual nodes
 
 
 ## Status
@@ -42,7 +42,7 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Materials
 * Supports
 * Intelligent analytical node merging within a certain distance
-* Steelconections
+* Steelconnections
 * Recognize section location(top, middle, bottom)
 
 ### Xframe3D to Revit
@@ -75,5 +75,12 @@ The dynamonode will look to a typename starting with a Abbrevation. By Example '
 ### Concrete
 Same story as wood
 
+## Workflows
 
+### Revit to X-frame3D
 
+![Image](Revit to X-frame 3D.gif)
+
+### X-fram3D to Revit Place piles based on supports
+
+![Image](X-frame 3D to Revit.gif)
