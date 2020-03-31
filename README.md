@@ -1,21 +1,21 @@
 # Dyn2Calc.Xframe3d
 Library for interoperability between Autodesk Revit,Dynamo and Xframe3d
 
+Xframe3d is a FEM-program for more information check: https://www.struct4u.com/xframe3d/?lang=en 
+
 Export a Revit-model to XFrame3d
 Import a Revit-model from XFrame3d
-
-https://www.struct4u.com/xframe3d/?lang=en 
 
 ![Image](Dyn2CalcXframe3DImage.png)
 
 ## Version
-0.1.0 released on 28-03-2020. Work in progress
+0.1.2 released on 28-03-2020. Work in progress
 
 ## Installation
 Installation will be possible via the dynamo built-in package manager.
 
 ## Dynamo, Revit-version
-The current nodes are tested with Revit 2020.2 and Dynamo 2.x
+The current nodes are tested with Revit 2020.2 and Dynamo 2.3
 It had not been tested with older or newer versions of Revit and Dynamo.
 
 ## Material on this repository
@@ -75,12 +75,10 @@ The dynamonode will look to a typename starting with a Abbrevation. By Example '
 ### Concrete
 Same story as wood
 
-## Workflows
+### Revit to Xframe3D
 
-### Revit to X-frame3D
+![](RevittoXframe3D.gif)
 
-![Image](RevittoX-frame3D.gif)
+### Xframe3D to Revit Place piles based on supports
 
-### X-fram3D to Revit Place piles based on supports
-
-![Image](X-frame3DtoRevit.gif)
+![](Xframe3DtoRevit.gif)
