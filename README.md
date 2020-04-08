@@ -44,6 +44,7 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Intelligent analytical node merging within a certain distance
 * Steelconnections
 * Recognize section location(top, middle, bottom)
+* Add GUID for element binding
 
 ### Xframe3D to Revit
 
@@ -56,13 +57,14 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 #### To be implemented:
 * Plates
 * Rebar
-* Recognition of section and load family into project
+* Recognition of steelsections and load family into project
+* Recognition of wood/concrete sections
 * Buildup Sections
 * Non rectangular concrete and wood sections
 * Materials
 * Intelligent analytical node merging
 * Steelconections
-
+* Add GUID for element binding
 
 ## Recognition of sections
 
