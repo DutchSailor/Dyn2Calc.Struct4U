@@ -9,6 +9,7 @@ Import a Revit-model from XFrame3d
 ![Image](Dyn2CalcXframe3DImage.png)
 
 ## Version
+0.2.0 released on 13-04-2020. Work in progress
 0.1.2 released on 28-03-2020. Work in progress
 
 ## Installation
@@ -53,11 +54,11 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Nodes, beams, columns, braces
 * All XML-information as lists in Dynamonodes
 * Example of place piles based on support location
+* Recognition of steelsections and load family into project
 
 #### To be implemented:
 * Plates
 * Rebar
-* Recognition of steelsections and load family into project
 * Recognition of wood/concrete sections
 * Buildup Sections
 * Non rectangular concrete and wood sections
