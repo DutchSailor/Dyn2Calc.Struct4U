@@ -9,6 +9,8 @@ Import a Revit-model from XFrame3d
 ![Image](Dyn2CalcXframe3DImage.png)
 
 ## Version
+0.2.0 released on 13-04-2020. Work in progress
+
 0.1.2 released on 28-03-2020. Work in progress
 
 ## Installation
@@ -53,11 +55,11 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Nodes, beams, columns, braces
 * All XML-information as lists in Dynamonodes
 * Example of place piles based on support location
+* Recognition of steelsections and load family into project
 
 #### To be implemented:
 * Plates
 * Rebar
-* Recognition of steelsections and load family into project
 * Recognition of wood/concrete sections
 * Buildup Sections
 * Non rectangular concrete and wood sections
@@ -84,3 +86,23 @@ Same story as wood
 ### Xframe3D to Revit Place piles based on supports
 
 ![](Xframe3DtoRevit.gif)
+
+
+### Nodes
+
+## **Current Nodes**
+* Dyn2Calc_Xframe3D_ExportXML
+* Dyn2Calc_Xframe3D_ImportXML
+* Dyn2Calc_Xframe3D_Grids
+* Dyn2Calc_Xframe3D_SteelSectionsNames
+* Dyn2Calc_Xframe3D_SplitColumnsFramingsMaterial
+* Dyn2Calc_Xframe3D_Settings
+* Dyn2Calc_Xframe3D_LoadFamilies
+* Dyn2Calc_Xframe3D_PlaceSteelColumnsFramings
+
+## **Future Nodes**
+* Dyn2Calc_Xframe3D_PlaceConcreteColumnsFramings
+* Dyn2Calc_Xframe3D_PlaceWoodColumnsFramings
+* Dyn2Calc_Xframe3D_Steelconnections
+* Dyn2Calc_Xframe3D_Rebar
+* Dyn2Calc_Xframe3D_plate_to_wall_floor
