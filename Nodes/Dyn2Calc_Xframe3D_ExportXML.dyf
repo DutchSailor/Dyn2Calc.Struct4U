@@ -3,7 +3,7 @@
   "IsCustomNode": true,
   "Category": "Dyn2Calc.Xframe3d",
   "Description": "Export XML-file from Revit",
-  "Name": "Xframe3DExportXML",
+  "Name": "Dyn2Calc_Xframe3D_ExportXML",
   "ElementResolver": {
     "ResolutionMap": {
       "String": {

@@ -3,7 +3,7 @@
   "IsCustomNode": true,
   "Category": "Dyn2Calc.Xframe3d",
   "Description": "Create Grids in Revit based on Xframe3DXMLImport",
-  "Name": "Dyn2CalcXframe3DGrids",
+  "Name": "Dyn2Calc_Xframe3D_Grids",
   "ElementResolver": {
     "ResolutionMap": {}
   },

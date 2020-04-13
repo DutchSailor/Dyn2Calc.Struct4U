@@ -13,12 +13,12 @@
     {
       "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
       "NodeType": "CodeBlockNode",
-      "Code": "//values\n[\"C:/Users/mikev/AppData/Roaming/Dynamo/Dynamo Revit/2.3/packages/Dyn2Calc.Xframe3D/extra/Families\",\n\"NLRS_28_SFR_balk_beton\"];",
+      "Code": "//values\n[\"C:/Users/mikev/AppData/Roaming/Dynamo/Dynamo Revit/2.3/packages/Dyn2Calc.Xframe3D/extra/Families\",\n\"NLRS_28_SFR_balk_beton\",\n\"NLRS_28_SFR_houten_balk\",\n\"NLRS_28_SC_beton_rechthoek\",\n\"NLRS_28_SC_HK\",\n\"Unknown Framing\",\n\"Unknown Column\",\n0];",
       "Id": "0401c6ac8a1843a49eb1d4de4ee84b23",
       "Inputs": [],
       "Outputs": [
         {
-          "Id": "3219f71c78724f4fbdfd2da1da351c52",
+          "Id": "b4ab6af6b88b49a99e6b091c6d10456e",
           "Name": "",
           "Description": "Value of expression at line 2",
           "UsingDefaultValue": false,
@@ -179,12 +179,12 @@
     {
       "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
       "NodeType": "CodeBlockNode",
-      "Code": "//keys\n[\"folder_family\",\n\"familyname_concrete_rectangle\"\n\"listnumber of steelsectionnames\"];",
+      "Code": "//keys\n[\"folder_family\",\n\"familyname_structural_framing_concrete_rectangle\",\n\"familyname_structural_framing_wood_rectangle\",\n\"familyname_structural_column_concrete_rectangle\",\n\"familyname_structural_column_wood_rectangle\",\n\"typename_unknown_structural_framing\",\n\"typename_unknown_structural_column\",\n\"steelprofiletypelistnumber\"];",
       "Id": "323218a6356e4b19864517f30c08f896",
       "Inputs": [],
       "Outputs": [
         {
-          "Id": "2909c81b14c5432fb93d024705f57d31",
+          "Id": "053989d6d96344cab22bbc2ae62a829b",
           "Name": "",
           "Description": "Value of expression at line 2",
           "UsingDefaultValue": false,
@@ -199,9 +199,9 @@
   ],
   "Connectors": [
     {
-      "Start": "3219f71c78724f4fbdfd2da1da351c52",
+      "Start": "b4ab6af6b88b49a99e6b091c6d10456e",
       "End": "25a6e20eef9d4c248e91e49766d63eb2",
-      "Id": "70e45cc48f434c3ebaa8e35d791d7880"
+      "Id": "4dffad6dc9864c59864d916421ed149d"
     },
     {
       "Start": "e4332262fc4f4ad2841b0544ace52b79",
@@ -224,9 +224,9 @@
       "Id": "65e6ca00f9ff49388c964b911d912dce"
     },
     {
-      "Start": "2909c81b14c5432fb93d024705f57d31",
+      "Start": "053989d6d96344cab22bbc2ae62a829b",
       "End": "32e8b1b375b741148519d35e9ab65127",
-      "Id": "b0e74bb5c61b4218a41a3a733eaa7931"
+      "Id": "4714333378604ec39bfca74a77d6d49b"
     }
   ],
   "Dependencies": [],
@@ -261,8 +261,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 824.99417440567436,
-        "Y": 779.64420318733221
+        "X": 808.68408099420708,
+        "Y": 732.43077489097948
       },
       {
         "ShowGeometry": true,
@@ -321,13 +321,13 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 837.566471240734,
-        "Y": 499.778857935392
+        "X": 810.096840231947,
+        "Y": 432.82163235147362
       }
     ],
     "Annotations": [],
-    "X": -706.73497769526261,
-    "Y": -257.428962916547,
-    "Zoom": 1.1649228193041175
+    "X": -531.02546709428191,
+    "Y": -130.15333690973284,
+    "Zoom": 0.98309670345676015
   }
 }
