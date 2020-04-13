@@ -10,6 +10,7 @@ Import a Revit-model from XFrame3d
 
 ## Version
 0.2.0 released on 13-04-2020. Work in progress
+
 0.1.2 released on 28-03-2020. Work in progress
 
 ## Installation
