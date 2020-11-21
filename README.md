@@ -9,7 +9,7 @@ Import a Revit-model from XFrame3d
 ![Image](Dyn2CalcXframe3DImage.png)
 
 ## Version
-0.2.0 released on 13-04-2020. Work in progress
+0.2.2 released on 21-11-2020. Work in progress
 
 0.1.2 released on 28-03-2020. Work in progress
 
@@ -45,7 +45,7 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Supports
 * Intelligent analytical node merging within a certain distance
 * Steelconnections
-* Recognize section location(top, middle, bottom)
+* Recognize section location(top, middle, bottom, offset)
 * Add GUID for element binding
 
 ### Xframe3D to Revit
@@ -56,6 +56,7 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * All XML-information as lists in Dynamonodes
 * Example of place piles based on support location
 * Recognition of steelsections and load family into project
+* Recognize section location(top, middle, bottom, offset)
 
 #### To be implemented:
 * Plates
