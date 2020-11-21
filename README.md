@@ -9,7 +9,7 @@ Import a Revit-model from XFrame3d
 ![Image](Dyn2CalcXframe3DImage.png)
 
 ## Version
-0.2.1 released on 13-04-2020. Work in progress
+0.2.2 released on 21-11-2020. Work in progress
 
 0.1.2 released on 28-03-2020. Work in progress
 
