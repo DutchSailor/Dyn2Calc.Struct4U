@@ -14,7 +14,7 @@ Import a Revit-model from XFrame3d
 0.1.2 released on 28-03-2020. Work in progress
 
 ## Installation
-Installation will be possible via the dynamo built-in package manager.
+Installation is possible via the dynamo built-in package manager.
 
 ## Dynamo, Revit-version
 The current nodes are tested with Revit 2020.2 and Dynamo 2.3
