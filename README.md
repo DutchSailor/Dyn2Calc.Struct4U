@@ -1,10 +1,10 @@
-# Dyn2Calc.Xframe3d
-Library for interoperability between Autodesk Revit,Dynamo and Xframe3d
+# Dyn2Calc.Struct4U
+Library for interoperability between Autodesk Revit,Dynamo and XFEM4U(former Xframe3d)
 
-Xframe3d is a FEM-program for more information check: https://www.struct4u.com/xframe3d/?lang=en 
+Xframe3d is a FEM-program for more information check: https://www.struct4u.com/xfem4u/
 
-Export a Revit-model to XFrame3d
-Import a Revit-model from XFrame3d
+Export a Revit-model to XFEM4U
+Import a Revit-model from XFEM4U
 
 ![Image](Dyn2CalcXframe3DImage.png)
 
@@ -27,7 +27,7 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 
 ## Status
 
-### Revit to Xframe3D
+### Revit to XFEM4U
 
 #### Implemented
 * Project information
@@ -48,7 +48,7 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Recognize section location(top, middle, bottom, offset)
 * Add GUID for element binding
 
-### Xframe3D to Revit
+### XFEM4U to Revit
 
 #### Implemented
 * Grids X Y Z
@@ -80,11 +80,11 @@ The dynamonode will look to a typename starting with a Abbrevation. By Example '
 ### Concrete
 Same story as wood
 
-### Revit to Xframe3D
+### Revit to XFEM4U
 
 ![](RevittoXframe3D.gif)
 
-### Xframe3D to Revit Place piles based on supports
+### XFEM4U to Revit Place piles based on supports
 
 ![](Xframe3DtoRevit.gif)
 
