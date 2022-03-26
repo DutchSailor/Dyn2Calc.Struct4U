@@ -9,8 +9,8 @@ Import a Revit-model from XFEM4U
 ![Image](Dyn2CalcXframe3DImage.png)
 
 ## Version
+0.0.1 released on 26-03-2022.(new name)
 0.2.2 released on 21-11-2020. Work in progress
-
 0.1.2 released on 28-03-2020. Work in progress
 
 ## Installation
