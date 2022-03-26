@@ -15,9 +15,11 @@ Import a Revit-model from XFEM4U
 
 ## Installation
 Installation is possible via the dynamo built-in package manager.
+The name is 'Dyn2Calc.Struct4U'.
+Dyn2Calc.XFrame3d' is deprecated on 26-03-2022 due to the namechange of Xframe3D to XFEM4U in 2021.
 
 ## Dynamo, Revit-version
-The current nodes are tested with Revit 2020.2 and Dynamo 2.3
+The current nodes are tested with Revit 2022 and Dynamo 2.x
 It had not been tested with older or newer versions of Revit and Dynamo.
 
 ## Material on this repository
@@ -57,9 +59,9 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Example of place piles based on support location
 * Recognition of steelsections and load family into project
 * Recognize section location(top, middle, bottom, offset)
-
-#### To be implemented:
 * Plates
+* 
+#### To be implemented:
 * Rebar
 * Recognition of wood/concrete sections
 * Buildup Sections
@@ -92,18 +94,19 @@ Same story as wood
 ### Nodes
 
 ## **Current Nodes**
-* Dyn2Calc_Xframe3D_ExportXML
-* Dyn2Calc_Xframe3D_ImportXML
-* Dyn2Calc_Xframe3D_Grids
-* Dyn2Calc_Xframe3D_SteelSectionsNames
-* Dyn2Calc_Xframe3D_SplitColumnsFramingsMaterial
-* Dyn2Calc_Xframe3D_Settings
-* Dyn2Calc_Xframe3D_LoadFamilies
-* Dyn2Calc_Xframe3D_PlaceSteelColumnsFramings
+* Dyn2Calc_XFEM4U_ExportXML
+* Dyn2Calc_XFEM4U_ImportXML
+* Dyn2Calc_XFEM4U_Grids
+* Dyn2Calc_XFEM4U_SteelSectionsNames
+* Dyn2Calc_XFEM4U_SplitColumnsFramingsMaterial
+* Dyn2Calc_XFEM4U_Settings
+* Dyn2Calc_XFEM4U_LoadFamilies
+* Dyn2Calc_XFEM4U_PlaceSteelColumnsFramings
 
 ## **Future Nodes**
-* Dyn2Calc_Xframe3D_PlaceConcreteColumnsFramings
-* Dyn2Calc_Xframe3D_PlaceWoodColumnsFramings
-* Dyn2Calc_Xframe3D_Steelconnections
-* Dyn2Calc_Xframe3D_Rebar
-* Dyn2Calc_Xframe3D_plate_to_wall_floor
+* Dyn2Calc_XFEM4U_PlaceConcreteColumnsFramings
+* Dyn2Calc_XFEM4U_PlaceWoodColumnsFramings
+* Dyn2Calc_XFEM4U_Steelconnections
+* Dyn2Calc_XFEM4U_2DRebar
+* Dyn2Calc_XFEM4U_3DRebar
+* Dyn2Calc_XFEM4U_PlateToWallFloor
