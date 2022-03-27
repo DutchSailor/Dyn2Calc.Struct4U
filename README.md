@@ -60,7 +60,7 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Recognition of steelsections and load family into project
 * Recognize section location(top, middle, bottom, offset)
 * Plates
-* 
+
 #### To be implemented:
 * Rebar
 * Recognition of wood/concrete sections
@@ -68,7 +68,7 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Non rectangular concrete and wood sections
 * Materials
 * Intelligent analytical node merging
-* Steelconections
+* Steelconnections
 * Add GUID for element binding
 
 ## Recognition of sections
@@ -102,6 +102,7 @@ Same story as wood
 * Dyn2Calc_XFEM4U_Settings
 * Dyn2Calc_XFEM4U_LoadFamilies
 * Dyn2Calc_XFEM4U_PlaceSteelColumnsFramings
+* Dyn2Calc_XFEM4U_PlateToWallFloor
 
 ## **Future Nodes**
 * Dyn2Calc_XFEM4U_PlaceConcreteColumnsFramings
@@ -109,4 +110,3 @@ Same story as wood
 * Dyn2Calc_XFEM4U_Steelconnections
 * Dyn2Calc_XFEM4U_2DRebar
 * Dyn2Calc_XFEM4U_3DRebar
-* Dyn2Calc_XFEM4U_PlateToWallFloor
