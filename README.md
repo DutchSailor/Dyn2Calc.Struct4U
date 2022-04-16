@@ -10,8 +10,8 @@ Import a Revit-model from XFEM4U
 
 ## Version
 0.0.1 released on 26-03-2022.(new name)
-0.2.2 released on 21-11-2020. Work in progress
-0.1.2 released on 28-03-2020. Work in progress
+0.0.2 released on 16-04-2022.(plates export included)
+
 
 ## Installation
 Installation is possible via the dynamo built-in package manager.
@@ -37,9 +37,9 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Grids X,Y,Z
 * Recognition of steelsections with 4 different type of nameconventions.
 * Recognition of rectangle concrete sections and wood sections
+* Plates
 
 #### To be implemented
-* Plates
 * Rebar
 * Buildup Sections
 * Non rectangular concrete and wood sections
