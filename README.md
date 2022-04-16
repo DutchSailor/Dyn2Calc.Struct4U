@@ -1,7 +1,7 @@
 # Dyn2Calc.Struct4U
 Library for interoperability between Autodesk Revit,Dynamo and XFEM4U(former Xframe3d)
 
-Xframe3d is a FEM-program for more information check: https://www.struct4u.com/xfem4u/
+XFEM4U is a 3D FEM-program for more information check: https://www.struct4u.com/xfem4u/
 
 Export a Revit-model to XFEM4U
 Import a Revit-model from XFEM4U
