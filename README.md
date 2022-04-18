@@ -1,7 +1,7 @@
 # Dyn2Calc.Struct4U
 Library for interoperability between Autodesk Revit,Dynamo and XFEM4U(former Xframe3d)
 
-Xframe3d is a FEM-program for more information check: https://www.struct4u.com/xfem4u/
+XFEM4U is a 3D FEM-program for more information check: https://www.struct4u.com/xfem4u/
 
 Export a Revit-model to XFEM4U
 Import a Revit-model from XFEM4U
@@ -10,8 +10,8 @@ Import a Revit-model from XFEM4U
 
 ## Version
 0.0.1 released on 26-03-2022.(new name)
-0.2.2 released on 21-11-2020. Work in progress
-0.1.2 released on 28-03-2020. Work in progress
+0.0.2 released on 16-04-2022.(plates export included)
+
 
 ## Installation
 Installation is possible via the dynamo built-in package manager.
@@ -37,9 +37,9 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Grids X,Y,Z
 * Recognition of steelsections with 4 different type of nameconventions.
 * Recognition of rectangle concrete sections and wood sections
+* Plates
 
 #### To be implemented
-* Plates
 * Rebar
 * Buildup Sections
 * Non rectangular concrete and wood sections
@@ -60,7 +60,7 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Recognition of steelsections and load family into project
 * Recognize section location(top, middle, bottom, offset)
 * Plates
-* 
+
 #### To be implemented:
 * Rebar
 * Recognition of wood/concrete sections
@@ -68,7 +68,7 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Non rectangular concrete and wood sections
 * Materials
 * Intelligent analytical node merging
-* Steelconections
+* Steelconnections
 * Add GUID for element binding
 
 ## Recognition of sections
@@ -102,6 +102,7 @@ Same story as wood
 * Dyn2Calc_XFEM4U_Settings
 * Dyn2Calc_XFEM4U_LoadFamilies
 * Dyn2Calc_XFEM4U_PlaceSteelColumnsFramings
+* Dyn2Calc_XFEM4U_PlateToWallFloor
 
 ## **Future Nodes**
 * Dyn2Calc_XFEM4U_PlaceConcreteColumnsFramings
@@ -109,4 +110,3 @@ Same story as wood
 * Dyn2Calc_XFEM4U_Steelconnections
 * Dyn2Calc_XFEM4U_2DRebar
 * Dyn2Calc_XFEM4U_3DRebar
-* Dyn2Calc_XFEM4U_PlateToWallFloor
