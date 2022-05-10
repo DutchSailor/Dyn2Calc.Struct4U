@@ -10,7 +10,11 @@ Import a Revit-model from XFEM4U
 
 ## Version
 0.0.1 released on 26-03-2022.(new name)
+
 0.0.2 released on 16-04-2022.(plates export included)
+
+0.0.3 released on 02-05-2022(bugfixes)
+
 
 
 ## Installation
