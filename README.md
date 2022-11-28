@@ -63,7 +63,7 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Example of place piles based on support location
 * Recognition of steelsections and load family into project
 * Recognize section location(top, middle, bottom, offset)
-* Plates
+* Plates(planar)
 
 #### To be implemented:
 * Rebar
