@@ -42,6 +42,8 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Recognition of steelsections with 4 different type of nameconventions.
 * Recognition of rectangle concrete sections and wood sections
 * Plates
+* Curved Edges of plates
+* Curved plates/walls
 
 #### To be implemented
 * Rebar
@@ -63,7 +65,7 @@ It had not been tested with older or newer versions of Revit and Dynamo.
 * Example of place piles based on support location
 * Recognition of steelsections and load family into project
 * Recognize section location(top, middle, bottom, offset)
-* Plates(planar)
+* Plates(curved edges)
 
 #### To be implemented:
 * Rebar
