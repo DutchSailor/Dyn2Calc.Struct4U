@@ -1,0 +1,300 @@
+{
+  "Uuid": "3c9d0464-8643-5ffe-96e5-ab1769818209",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "XFEM4U To Revit Rebar",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Function, DynamoCore",
+      "FunctionSignature": "33a5a45f-e3e1-442a-ab9c-5b595cf9be43",
+      "FunctionType": "Graph",
+      "NodeType": "FunctionNode",
+      "Id": "94140ed49c914d3eb0ecfbb119747b2f",
+      "Inputs": [
+        {
+          "Id": "481a104f1a634dc7b5dfc53213a6c7c1",
+          "Name": "xmlFile",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "073d7abceaf44285957629fc71749f31",
+          "Name": "XFEM4U XMLData ProjectInformation",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "d50ca9d239124420b612137d15bc9191",
+          "Name": "XFEM4U XMLData Nodes",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "358a868158ec4a4e8f650505e13b4124",
+          "Name": "XFEM4U XMLData Grids",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "ba3ec7ffaa8a49488c1e67690a2fb958",
+          "Name": "XFEM4U XMLData ProfileShapeProperties",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "4628fd9c164e4801a4ac20d6a0d19fcb",
+          "Name": "XFEM4U XMLData Beams",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "6613412da7914211ab4c3736511353da",
+          "Name": "XFEM4U XMLData Supports",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "688779a4dfcd4a61b6b61a98c6f0907b",
+          "Name": "XFEM4U XMLData Beamgroup",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "f9e08062581a448493ab1f6dc1733b41",
+          "Name": "XFEM4U XMLData Plates",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "18ec2c457c9548028cd3899f19609d0c",
+          "Name": "XFEM4U XMLData RebarLongitudinal",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "2ec3db3ad8fa4186b117b5c7fe1ff70f",
+          "Name": "XFEM4U XMLData RebarStirrup",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "3af38e5270bb4fa3897f54e248b06938",
+          "Name": "XFEM4U XMLData Profiles",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "fbf0066c5ddc46cebf5e430d86454232",
+          "Name": "XFEM4U XMLData Layers",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Import XFEM4U XML and convert to points, lines and metadata"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.Filename, CoreNodeModels",
+      "HintPath": "C:\\TEMP\\Test.xml",
+      "InputValue": "C:\\TEMP\\Test.xml",
+      "NodeType": "ExtensionNode",
+      "Id": "8cf99f92e1ff4f458e3429ae1ec175d1",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "5f4f44d5b45a4c3881301527ac3e97e9",
+          "Name": "",
+          "Description": "File Path",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows you to select a file on the system to get its file path."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Watch, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "28f0f0f564074d26b9109105ef913e1e",
+      "Inputs": [
+        {
+          "Id": "2ca05fb83d4349e7bca52f1bef0816f4",
+          "Name": "",
+          "Description": "Node to show output from",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "8581f34213174b75af53a9489c59f47a",
+          "Name": "",
+          "Description": "Node output",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Visualize the node's output"
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "18ec2c457c9548028cd3899f19609d0c",
+      "End": "2ca05fb83d4349e7bca52f1bef0816f4",
+      "Id": "738bf6839e0b4012a7ace9cfcf3aa5b7"
+    },
+    {
+      "Start": "5f4f44d5b45a4c3881301527ac3e97e9",
+      "End": "481a104f1a634dc7b5dfc53213a6c7c1",
+      "Id": "19218e82304e41a5a0365138ff6c63d1"
+    }
+  ],
+  "Dependencies": [
+    "33a5a45f-e3e1-442a-ab9c-5b595cf9be43"
+  ],
+  "NodeLibraryDependencies": [
+    {
+      "Name": "Dyn2Calc.Struct4U",
+      "Version": "0.0.4",
+      "ReferenceType": "Package",
+      "Nodes": [
+        "94140ed49c914d3eb0ecfbb119747b2f"
+      ]
+    }
+  ],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.12",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "1.10",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.12.1.8246",
+      "RunType": "Automatic",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -4590.2841796875,
+      "EyeY": 12123.615234375,
+      "EyeZ": 13125.927734375,
+      "LookX": 4585.2841796875,
+      "LookY": -12112.615234375,
+      "LookZ": -13133.927734375,
+      "UpX": 0.15811723470687866,
+      "UpY": 0.8774254322052002,
+      "UpZ": -0.45290583372116089
+    },
+    "NodeViews": [
+      {
+        "ShowGeometry": true,
+        "Name": "Dyn2Calc_XFEM4U_ImportXML",
+        "Id": "94140ed49c914d3eb0ecfbb119747b2f",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1638.5396042598195,
+        "Y": 384.12657865451217
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "File Path",
+        "Id": "8cf99f92e1ff4f458e3429ae1ec175d1",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1261.3549499639116,
+        "Y": 465.79552815065711
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Watch",
+        "Id": "28f0f0f564074d26b9109105ef913e1e",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 2234.5257510078618,
+        "Y": 469.5111496994549
+      }
+    ],
+    "Annotations": [],
+    "X": -620.48595559742034,
+    "Y": -48.018715374674855,
+    "Zoom": 0.58667250026367623
+  }
+}
