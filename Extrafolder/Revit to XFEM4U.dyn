@@ -139,12 +139,12 @@
     {
       "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
       "NodeType": "CodeBlockNode",
-      "Code": "\"C:/TEMP/test120.xml\";",
+      "Code": "\"C:/TEMP/test124.xml\";",
       "Id": "a13832d56b62464994592114b6a0887c",
       "Inputs": [],
       "Outputs": [
         {
-          "Id": "77dfc4b9e2e147a79542d7a20d52b6c5",
+          "Id": "cc20832695cd42be8d422b3b1c8f9ac7",
           "Name": "",
           "Description": "Value of expression at line 1",
           "UsingDefaultValue": false,
@@ -212,51 +212,36 @@
       "InstanceId": [
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068bee",
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068bef",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068bf0",
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068bf1",
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068bf2",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068bf3",
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068bf4",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068bf5",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068bf6",
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068bf7",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068bf8",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068bf9",
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068bfa",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068bfb",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068bfc",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068bfd",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068bfe",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068bff",
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068c00",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068c01",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068c02",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068c04",
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068c05",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068c06",
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068c07",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068c08",
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068c09",
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068c0a",
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068c0b",
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068c0c",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068c0d",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068c0e",
-        "e60a7cec-482c-48be-b729-cbfc5e046498-00068c0f",
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068c10",
         "e60a7cec-482c-48be-b729-cbfc5e046498-00068c11",
-        "9db2beb3-0e04-4336-8c06-af9425abdd6f-00068e84",
-        "9db2beb3-0e04-4336-8c06-af9425abdd6f-00068e86",
-        "9db2beb3-0e04-4336-8c06-af9425abdd6f-00068e88",
-        "9db2beb3-0e04-4336-8c06-af9425abdd6f-00068ebb",
         "9db2beb3-0e04-4336-8c06-af9425abdd6f-00068ebd",
         "9db2beb3-0e04-4336-8c06-af9425abdd6f-00068ebf",
-        "9db2beb3-0e04-4336-8c06-af9425abdd6f-00068ec1",
-        "9db2beb3-0e04-4336-8c06-af9425abdd6f-00068ec3",
-        "9db2beb3-0e04-4336-8c06-af9425abdd6f-00068ec5",
-        "9db2beb3-0e04-4336-8c06-af9425abdd6f-00068ec7",
         "9db2beb3-0e04-4336-8c06-af9425abdd6f-00068f7e",
-        "9db2beb3-0e04-4336-8c06-af9425abdd6f-0006901a"
+        "9db2beb3-0e04-4336-8c06-af9425abdd6f-0006901a",
+        "f7c68590-2403-47f1-bb75-5d57a77f5a52-0006b0a4",
+        "de454ad4-83dc-415b-979f-70e3212fce32-0006b5e2",
+        "de454ad4-83dc-415b-979f-70e3212fce32-0006b602",
+        "de454ad4-83dc-415b-979f-70e3212fce32-0006b622",
+        "de454ad4-83dc-415b-979f-70e3212fce32-0006b642",
+        "5ea2fc2a-6559-40fc-a670-8afdecc8a763-0006d240",
+        "5ea2fc2a-6559-40fc-a670-8afdecc8a763-0006d40f",
+        "2d2f59d5-ad41-4f46-8048-a767fa3e939d-0006d75e",
+        "2d2f59d5-ad41-4f46-8048-a767fa3e939d-0006db70",
+        "2d2f59d5-ad41-4f46-8048-a767fa3e939d-0006f20c",
+        "2d2f59d5-ad41-4f46-8048-a767fa3e939d-0006ff0f",
+        "2d2f59d5-ad41-4f46-8048-a767fa3e939d-0007032a"
       ],
       "Id": "5ecb0e80026940b99f73b9596d5d5309",
       "Inputs": [],
@@ -14675,12 +14660,12 @@
     {
       "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
       "NodeType": "CodeBlockNode",
-      "Code": "platesSpacingSegmentation: int = 300;",
+      "Code": "platesSpacingSegmentation: int = 50;",
       "Id": "3e9bf1ae714741159d82030e81ed0d6d",
       "Inputs": [],
       "Outputs": [
         {
-          "Id": "ca4107807597458f8e9a54aa578afe70",
+          "Id": "bfd6a3c9787647ffb2a7ff4648a7c6e3",
           "Name": "",
           "Description": "platesSpacingSegmentation",
           "UsingDefaultValue": false,
@@ -15556,9 +15541,9 @@
       "Id": "1d431c39a0ac4ce79817ab750c23be5a"
     },
     {
-      "Start": "77dfc4b9e2e147a79542d7a20d52b6c5",
+      "Start": "cc20832695cd42be8d422b3b1c8f9ac7",
       "End": "5a805e3399d544ba8a92a9387af2d21d",
-      "Id": "ad2bfe5882b94a9ab4fde71fb5192280"
+      "Id": "bfa6863949684e1d84c2f313e819ab83"
     },
     {
       "Start": "3fb54181969444a6a2e219916a8f5d59",
@@ -18296,14 +18281,14 @@
       "Id": "e661c8d02ff442c7a2be05e8f057382e"
     },
     {
-      "Start": "ca4107807597458f8e9a54aa578afe70",
+      "Start": "bfd6a3c9787647ffb2a7ff4648a7c6e3",
       "End": "d2c0c05d6c6a46e2a057fe1d12eda852",
-      "Id": "b3b953c513ba4c9486d819e883f7b9e9"
+      "Id": "caa53dbebb764a2484bdfd44fdcf6821"
     },
     {
-      "Start": "ca4107807597458f8e9a54aa578afe70",
+      "Start": "bfd6a3c9787647ffb2a7ff4648a7c6e3",
       "End": "f75d7be03ba2419fad915f6ef5ff121a",
-      "Id": "f884707842dc463b8f47d59de7bfcf6b"
+      "Id": "ff7e367d9b194e72bca88980428f284f"
     },
     {
       "Start": "9abecb47fbd840d8a3434531ff304b6e",
@@ -18523,15 +18508,15 @@
     },
     "Camera": {
       "Name": "Background Preview",
-      "EyeX": 15205.162109375,
-      "EyeY": 16896.197265625,
-      "EyeZ": 8150.3408203125,
-      "LookX": -5337.9931640625,
-      "LookY": -12667.5849609375,
-      "LookZ": -11546.841796875,
-      "UpX": -0.22546251118183136,
-      "UpY": 0.84339100122451782,
-      "UpZ": -0.48770734667778015
+      "EyeX": -7863.6953125,
+      "EyeY": 8849.3466796875,
+      "EyeZ": -2757.2900390625,
+      "LookX": 3371.90234375,
+      "LookY": -8068.3779296875,
+      "LookZ": 3110.330810546875,
+      "UpX": 0.54624378681182861,
+      "UpY": 0.66912847757339478,
+      "UpZ": 0.503869891166687
     },
     "NodeViews": [
       {
@@ -18601,8 +18586,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": -2651.0085765071813,
-        "Y": 1202.3782184421584
+        "X": -2458.492713115088,
+        "Y": 1160.2869364818798
       },
       {
         "ShowGeometry": true,
@@ -23449,13 +23434,13 @@
         "Height": 276.8227070883936,
         "FontSize": 36.0,
         "InitialTop": 3669.8691177970691,
-        "InitialHeight": 253.8227070883936,
+        "InitialHeight": 249.8227070883936,
         "TextblockHeight": 43.0,
         "Background": "#FFC1D676"
       }
     ],
-    "X": 3375.4864682941338,
-    "Y": -123.09332188185709,
-    "Zoom": 0.85005505224158073
+    "X": 2111.3746538967225,
+    "Y": -1850.4623307464594,
+    "Zoom": 0.65654641680022818
   }
 }
